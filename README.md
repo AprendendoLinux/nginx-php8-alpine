@@ -1,4 +1,4 @@
-# Nginx Com PHP8 for Alpine Linux
+# Nginx com PHP8 for Alpine Linux
 
 <h3>Preparando o ambiente para usar a imagem: </h3>
 
