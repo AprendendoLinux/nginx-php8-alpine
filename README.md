@@ -16,4 +16,4 @@ docker run -d --name='nginx-php8-alpine' \
 --restart=always aprendendolinux/nginx-php8-alpine:latest
 ~~~
 
-Use também o [docker-compose.yml](https://github.com/AprendendoLinux/nginx/blob/main/docker-compose.yml).
+Use também o [docker-compose.yml](https://github.com/AprendendoLinux/nginx-php8-alpine/blob/main/docker-compose.yml).
