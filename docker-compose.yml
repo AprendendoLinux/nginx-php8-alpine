@@ -1,13 +1,13 @@
 version: "3.7"
 
 services:
-  nginx:
-    image: aprendendolinux/nginx:latest
+  nginx-php8-alpine:
+    image: aprendendolinux/nginx-php8-alpine:latest
     restart: always
-    container_name: nginx
+    container_name: nginx-php8-alpine
     volumes:
-    - nginx:/var/www/html
+    - nginx-php8-alpine:/var/www/html
     ports:
     - "80:80"
 volumes:
-  nginx:
+  nginx-php8-alpine:
