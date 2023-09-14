@@ -95,6 +95,7 @@ RUN apk update && apk upgrade && apk add \
 	php81-dom \
 	php81-phar \
 	php81-ftp \
+	php81-calendar \
 	php81-xmlreader && \
 	rm /var/cache/apk/* && \
 	\
